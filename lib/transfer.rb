@@ -11,7 +11,7 @@ class Transfer
 
   
    def valid?
-      @status == "pending" && @balance > 0
+    
    end
 
 
