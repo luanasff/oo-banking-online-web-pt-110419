@@ -6,7 +6,7 @@ class Transfer
      @sender = sender 
      @receiver = receiver 
      @status = "pending"
-     @tranfer_amount = 10
+     @tranfer_amount = tranfer_amount
   end 
 
  
