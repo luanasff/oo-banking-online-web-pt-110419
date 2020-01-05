@@ -24,3 +24,5 @@ class Transfer
      @amount = 0
   end
 end    
+
+
