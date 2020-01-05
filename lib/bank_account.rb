@@ -21,9 +21,5 @@ class BankAccount
 
    
    def valid 
-     if balance > 0 
-        return @status 
-     else 
-       nil 
-   end 
+    
 end 
