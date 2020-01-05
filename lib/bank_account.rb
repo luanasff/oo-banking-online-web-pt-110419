@@ -21,12 +21,7 @@ class BankAccount
 
    
    def valid 
-     if balance > 0 
-       return true 
-     else 
-       false 
-     end 
-  end
+     
   
   
     def close_account 
