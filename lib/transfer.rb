@@ -9,8 +9,10 @@ class Transfer
      @tranfer_amount = tranfer_amount
   end 
 
-  def valid? 
-    
+  
+   def valid?
+      @status == "pending" && @balance > 0
+   end
 
 
 end
