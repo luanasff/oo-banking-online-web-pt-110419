@@ -9,7 +9,8 @@ class Transfer
      @tranfer_amount = tranfer_amount
   end 
 
- 
+  def valid? 
+    
 
 
 end
