@@ -22,7 +22,7 @@ class BankAccount
    
    def valid 
      if balance > 0 
-        @status 
+        status 
      else 
        nil 
    end 
