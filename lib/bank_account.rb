@@ -24,5 +24,6 @@ class BankAccount
      if balance > 0 
         @status 
      else 
+       nil 
    end 
 end 
